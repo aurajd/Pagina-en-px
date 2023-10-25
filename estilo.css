@@ -1,0 +1,168 @@
+/* Estilos generales layout */
+body {
+    width: 1280px;
+    margin: auto;
+    background-image: url("imagen/imagen.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 1280px;
+    height: 80px;
+    background-color: white;
+    position: relative;
+}
+
+nav {
+    width: 1280px;
+    height: 60px;
+    margin: 0;
+    background-color: #006293;
+}
+
+main {
+    width: 1000px;
+    margin: 10px 90px;
+    padding: 20px 50px;
+    border-radius: 4px;
+    background-color: #006293;
+}
+
+section {
+    width: 960px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+section:last-child {
+    margin-bottom: 0;
+}
+
+footer {
+    width: 1280px;
+    height: 80px;
+    line-height: 80px;
+    background-color: #006293;
+}
+
+/* Estilos elementos header */
+header p {
+    display: block;
+    width: 1280px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    text-align: center;
+    color: #006293;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header img {
+    position: absolute;
+    height: 60px;
+    width: 120px;
+    top: 10px;
+    right: 10px;
+}
+
+/* Estilos menú nav */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 420px;
+    height: 60px;
+}
+
+nav li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    width: 200px;
+    padding: 10px;
+}
+
+nav a {
+    display: block;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #0079b6;
+}
+
+nav a:hover {
+    background-color: #003f5f;
+}
+
+/* Estilos elementos */
+
+footer p {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+/* Estilos section */
+
+h2 {
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ol p {
+    margin-top: 0;
+}
+
+figure {
+    width: 500px;
+    margin: auto;
+}
+
+figure img {
+    width: 500px;
+    height: 500px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+/* Estilos formulario */
+
+label[for="nombre"],
+label[for="interes"] {
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"] {
+    padding: 10px 20px;
+    width: 160px;
+}
+
+select {
+    width: 200px;
+
+}
+
+.div_inputs {
+    margin-bottom: 20px;
+}
+
+form p {
+    margin: 0;
+    margin-bottom: 5px;
+}
