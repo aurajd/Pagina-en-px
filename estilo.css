@@ -112,7 +112,6 @@ nav a:hover {
 }
 
 /* Estilos elementos footer */
-
 footer p {
     margin: 0;
     text-align: center;
@@ -120,7 +119,6 @@ footer p {
 }
 
 /* Estilos section */
-
 h2 {
     text-align: center;
 }
@@ -152,6 +150,9 @@ figcaption {
 }
 
 /* Estilos formulario */
+form {
+    width: 960px;
+}
 
 label[for="nombre"],
 label[for="interes"] {
@@ -170,6 +171,7 @@ select {
 }
 
 .div_inputs {
+    width: 960px;
     margin-bottom: 20px;
 }
 
