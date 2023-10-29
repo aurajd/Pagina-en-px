@@ -1,7 +1,12 @@
 /* Estilos generales layout */
-body {
+html {
     width: 1280px;
-    margin: auto;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    width: 1280px;
     background-image: url("imagen/imagen.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -23,14 +28,16 @@ nav {
 }
 
 main {
+    /* Ancho total caja 1100px - padding 50px*2 = 1000px */
     width: 1000px;
-    margin: 10px 90px;
+    margin: 10px auto;
     padding: 20px 50px;
     border-radius: 4px;
     background-color: #006293;
 }
 
 section {
+    /* Ancho total caja 1000px - padding 20px*2 = 960px */
     width: 960px;
     padding: 20px;
     margin-bottom: 10px;
@@ -63,9 +70,9 @@ header p {
 }
 
 header img {
-    position: absolute;
     height: 60px;
     width: 120px;
+    position: absolute;
     top: 10px;
     right: 10px;
 }
@@ -79,28 +86,30 @@ nav ul {
 }
 
 nav li {
-    float: left;
-    height: 40px;
-    line-height: 40px;
+    /* Ancho total caja 220px - padding 10px*2 = 200px */
     width: 200px;
+    /* Altura total caja 60px - padding 10px*2 = 40px */
+    height: 40px;
     padding: 10px;
+    line-height: 40px;
+    float: left;
 }
 
 nav a {
-    display: block;
-    height: 40px;
     width: 200px;
+    height: 40px;
     text-align: center;
     text-decoration: none;
     color: white;
     background-color: #0079b6;
+    display: block;
 }
 
 nav a:hover {
     background-color: #003f5f;
 }
 
-/* Estilos elementos */
+/* Estilos elementos footer */
 
 footer p {
     margin: 0;
@@ -128,7 +137,7 @@ ol p {
 
 figure {
     width: 500px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 figure img {
@@ -149,13 +158,13 @@ label[for="interes"] {
 }
 
 input[type="text"] {
-    padding: 10px 20px;
+    /* Ancho total caja 200 - padding 20px*2 = 160px */
     width: 160px;
+    padding: 10px 20px;
 }
 
 select {
     width: 200px;
-
 }
 
 .div_inputs {
